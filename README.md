@@ -1,4 +1,4 @@
-# 🧰 extra
+# 🧰 EXTRA-64
 
 `EXTRA-64` is a lightweight command-line utility for encoding and decoding files using Base64. It supports automatic deletion of the input file after conversion and provides a clean, colored output for better user experience.
 
