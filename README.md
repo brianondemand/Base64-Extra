@@ -19,9 +19,7 @@
 Make the script executable:
 
 ```bash
-
 chmod +x extra.py
-
 ```
 
 ---
@@ -32,7 +30,6 @@ chmod +x extra.py
 
 ```bash
 python3 extra.py -i raw.txt -o encoded.txt
-
 ```
 
 - -i raw.txt: Input file to encode
@@ -46,9 +43,7 @@ This will delete the original raw.txt after encoding.
 #### 🔓 Decode Base64 back to raw text
 
 ```bash
-
 python3 extra.py -i encoded.txt -o raw.txt --reverse
-
 ```
 
 - --reverse: Tells the tool to decode instead of encode
@@ -59,10 +54,7 @@ This will delete the encoded.txt after decoding.
 
 ### 🆘 Help Menu
 
-
 ```bash
-
 python3 extra.py --help
-
-
 ```
+---
